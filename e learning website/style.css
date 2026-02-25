@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #1e3a8a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #facc15;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero button:hover {
+    background: #eab308;
+}
+
+/* Courses */
+.courses {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #f3f4f6;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+/* About */
+.about {
+    background: #e0f2fe;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Contact */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.contact button {
+    padding: 8px 20px;
+    border: none;
+    background: #1e3a8a;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
